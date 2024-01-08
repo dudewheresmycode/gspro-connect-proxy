@@ -21,12 +21,21 @@ style PROXY fill:#008cff,color:#FFF,stroke:#2761b3,stroke-width:1px
 style EVENTS fill:#008cff,color:#FFF,stroke:#2761b3,stroke-width:1px
 ```
 
-Checkout the example in `example/simple.js` and modify it to your needs.
+
+## Usage
+
+Download or clone this repo and run the following from the root project directory.
+```
+npm install
+npm run test
+```
+
+This will run the example in `example/simple.js`. You can modify it to fit your needs.
 
 ## Options
 
 
-If you're like me, and use an Approach R10, I recommend using **[gsp-r10-adapter](https://github.com/mholow/gsp-r10-adapter)**. You can just edit the `settings.json` file and change the port from `921` to `1337`. This will allow the proxy to sit in between GSPro and the Launch Monitor.
+If you're like me, and use an Approach R10, I recommend using **[gsp-r10-adapter](https://github.com/mholow/gsp-r10-adapter)**. You can just edit it's `settings.json` file and change the port from `921` to `1337`. This will allow the proxy to sit in between **GSPro** and **gsp-r10-adapter**.
 
 
 ### `serverConfig`
